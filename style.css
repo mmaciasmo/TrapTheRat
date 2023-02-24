@@ -1,0 +1,67 @@
+h1 {text-align: center;}
+h2 {text-align: center; color: red;}
+h3 {text-align: center; color: rgba(0, 128, 0, 0.3); font-size:20px;}
+#court{   
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative; 
+    background-color: rgba(0, 128, 0, 0.3);
+}
+#linea1 {
+  height: 5px;
+  width: 10px;
+  background: black;
+  position: absolute;
+  top: 100px;
+  left:-10px;
+}
+#linea2 {
+  height: 5px;
+  width: 10px;
+  background: black;
+  position: absolute;
+  top: 500px;
+  left:-10px;
+}
+
+
+
+#racket {
+  height: 76px;
+  width: 76px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 290px;
+  left: 20px;
+}
+
+
+
+#circle {
+  height: 24px;
+  width: 24px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 288px;
+  left: 480px;
+}
+
+
+#Div1 {
+  width: 1200px;
+  height: 50%;
+}
+
+#Div2 {
+  width: 1200px;
+  height: 50%;
+}
+
+
+
+
+
