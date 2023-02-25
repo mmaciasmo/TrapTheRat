@@ -62,7 +62,7 @@ let A,B,C,T,CHx,CHy,CHnx,CHny,Vch,Vchn;
        	if (Math.sqrt(Math.pow(((racket.offsetLeft+38)-(circle.offsetLeft+12)),2)+Math.pow(((racket.offsetTop+38)-(circle.offsetTop+12)),2))<=50) {
        	
        	
-       	// The solution of a second degree ecuation to find the exact position of the ball when the collision happened.
+       	// The solution of a second degree ecuation to find the exact position of the ball when the collision happen.
         A=Math.pow((0-Vx*V*E),2)+Math.pow((0-Vy*V*E),2);
         B=2*(((racket.offsetLeft+38)-(circle.offsetLeft+12))*(0-Vx*V*E)+2*((racket.offsetTop+38)-(circle.offsetTop+12))*(0-Vy*V*E));
         C=Math.pow(((racket.offsetLeft+38)-(circle.offsetLeft+12)),2)+Math.pow(((racket.offsetTop+38)-(circle.offsetTop+12)),2)-Math.pow((50),2);
